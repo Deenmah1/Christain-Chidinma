@@ -1,0 +1,140 @@
+@media (max-width: 991px) {
+ul{
+    list-style: none;
+    display: none;
+    padding-right: 20px;
+}
+
+.homePage{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    /* background-color: #fff5dc; */
+    overflow: hidden;
+    color: #fff;
+}
+
+.Nma1{
+    right: 5%;
+}
+.homePage_header1{
+    top: 55%;
+    left: 45%;
+    width: 100%;
+}
+
+.aboutPage{
+    flex-direction: column;
+    column-gap: 30px;
+}
+
+
+
+.Nma2{
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    object-position: top;
+    margin: 0 auto;
+}
+
+.aboutPage_about{
+    width: 100%;
+}
+
+.aboutPage_paragraph{
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 18px;
+}
+
+.aboutPage_button{
+    left: 40%;
+}
+
+.contactPage_paragraph{
+    top: 30%;
+}
+
+.contactPage_contact{
+    row-gap: 20px;
+}
+
+.contactPage_whatsapp, .contactPage_email, .contactPage_instagram, .contactPage_facebook{
+    flex-direction: column;
+    column-gap: 5px;
+    padding: 5px 5px;
+    margin: 5px;
+    border-radius: 40px;
+}
+
+a{
+    padding: 8px 8px;
+}
+
+}
+
+@media (max-width: 640px) {
+
+.Nma1{
+    left: -6%;
+}
+
+.homePage_header1{
+    top: 60%;
+    left: 53%;
+    width: 100%;
+    font-size: 0.95rem;
+}
+
+.aboutPage{
+    flex-direction: column;
+    column-gap: 30px;
+}
+
+
+
+.Nma2{
+    height: 350px;
+    width: 350px;
+}
+
+
+.aboutPage_paragraph{
+    font-size: 1.1rem;
+    line-height: 1.1;
+    margin-bottom: 15px;
+}
+
+.aboutPage_button{
+    left: 35%;
+}
+
+.servicePage_service_container{
+    flex-direction: column;
+}
+
+.servicePage_service{
+    width: 100%;
+}
+
+.servicePage_service img, .servicePage_service video{
+    border-radius: 30px;
+    width: 100%;
+}
+
+
+.contactPage_paragraph{
+    width: 80%;
+}
+
+.contactPage_contact{
+    flex-direction: column;
+    column-gap: 30px;
+    align-items: stretch;
+}
+
+
+}
