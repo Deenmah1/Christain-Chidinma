@@ -131,4 +131,26 @@
     column-gap: 30px;
     align-items: stretch;
   }
+
+  .burger_btn{
+    display: flex;
+}
+
+.burger {
+    display: block;
+    cursor: pointer;
+  background-color: transparent;
+  font-size: 30px;
+  font-weight: lighter;
+  border: none;
+}
+
+nav .active{
+   display: flex;
+}
+
+.nav-menu {
+  display: none;
+  flex-direction: column;
+}
 }
