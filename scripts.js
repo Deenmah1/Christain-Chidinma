@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const hamBurger = document.querySelector('.burger');
     const navMenu = document.querySelector('.nav-menu');
-    let icon = document.querySelector('i');
+    const icon = hamBurger.querySelector('i');
 
     hamBurger.addEventListener('click', function() {
         navMenu.classList.toggle('active');
